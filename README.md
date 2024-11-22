@@ -13,17 +13,19 @@ Client-Server setup for runtime efficiency and memory usage across devices (e.g.
 
 
 
-**Clone the Repository**
-https://github.com/SurabhiSarkar1/Schnorr-Blind-IBI-.git
-
-
-
-
-
 **Installation Dependencies/Libraries:**
+- python 3.x
+- 
+### How to run the scheme:
 
-**How to run the scheme:** 
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/SurabhiSarkar1/Schnorr-Blind-IBI-.git
+   ```
 
-Use localhost 127.0.0.1 port 5000 for server connection to local
-server.py to initiate the server and start keygen process/verification process
-client.py to run the scheme and record ouputs
+
+2. **Run the Schemes**:
+   ```bash
+   python client.py   # to run the scheme and record ouputs
+   python server.py # to initiate the server and start keygen process/verification process
+   ```
